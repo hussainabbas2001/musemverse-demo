@@ -24,22 +24,8 @@ const Home = () => {
       description:
         'The eight-armed Indian goddess Ushnishavijaya is one of three deities ',
     },
-    {
-      image:
-        'https://api.museumverse.net/server/artifacts/uploaded_images/artifacts_img_sets/156/BAG002.png',
-      title: 'Buddha in meditation',
-      price: '200AD',
-      description:
-        'Taxila was an important centre for flourishing of monastic activity du',
-    },
-    {
-      image:
-        'https://api.museumverse.net/server/artifacts/uploaded_images/artifacts_img_sets/101/IBA013.png',
-      title: 'Naga Muchalinda',
-      price: '200BCE',
-      description:
-        'The Vinaya Pitaka, during the forty-nine days of contemplation by Budd..',
-    },
+   
+    
     {
       image:
         'https://api.museumverse.net/server/artifacts/uploaded_images/artifacts_img_sets/201/LMG0035.png',
@@ -88,6 +74,22 @@ const Home = () => {
       description:
         'Sambara is a Buddhist Tantric God and is the King of knowledge having',
     },
+    {
+      image:
+        'https://api.museumverse.net/server/artifacts/uploaded_images/artifacts_img_sets/156/BAG002.png',
+      title: 'Buddha in meditation',
+      price: '200AD',
+      description:
+        'Taxila was an important centre for flourishing of monastic activity du',
+    },
+    {
+      image:
+        'https://api.museumverse.net/server/artifacts/uploaded_images/artifacts_img_sets/101/IBA013.png',
+      title: 'Naga Muchalinda',
+      price: '200BCE',
+      description:
+        'The Vinaya Pitaka, during the forty-nine days of contemplation by Budd..',
+    },
   ];;
 
 
@@ -122,7 +124,8 @@ const Home = () => {
         <div className='text-overlay'>
           <h2>WORLD  OF <br /> HERITAGE AND MUSEUMS IN STUNNING 3D</h2>
           <p>High quality and research grade digital scans to <br /> explore the museum and heritage artifacts.</p>
-          <button className='preview-button'>TRY NOW!</button>
+          
+          <Link to="/Artifacts" className='preview-button'>TRY NOW!</Link>
         </div>
         <div className='banner-image'></div>
       </div>
@@ -133,9 +136,10 @@ const Home = () => {
         <Link to='/Artifacts' className='Full-Artifacts-view'>
           View all
         </Link>
-      
-          {cardInfo.map(renderCard)}
-       
+        {cardInfo.map(renderCard)}
+        <h3 className='swipe'>Swipe
+        <i class="ri-arrow-right-fill"></i>
+        </h3>
       </div>
 
 
@@ -148,6 +152,7 @@ const Home = () => {
         <br />
         <p>Our mission at Museumverse is to create a phyigital realm, where the treasures of museums and cultural institutions are showcased in research-grade accuracy. We believe that everyone should have access to the rich tapestry of human history, regardless of geographical limitations or space constraints...</p>
         <button className='read-more'>Read More</button>
+
         </div>
         <div className='second'>
           <img src="	https://museumverse.net/static/media/unsplash_VgQ_zGNvm84.c8bd683dd62a1360668a3eda25962b41.svg" alt="" />
@@ -155,8 +160,8 @@ const Home = () => {
       </div>
       <footer>
         <div className='footer-links'>
-        <Link to="/About">About Us</Link>
-          <a href="#">Contact US</a>
+        <Link to="/About">ABOUT US</Link>
+          <a href="#">CONTACT US</a>
           </div>
           <div className='footer-small-line'></div>
           <div className='footer-address'>

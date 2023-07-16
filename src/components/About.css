@@ -8,6 +8,20 @@ html, body{
     height: 100%;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #C89F82; 
+    border-radius: 10px;
+  }
+
 .About-main{
     padding-top: 58px;
 }

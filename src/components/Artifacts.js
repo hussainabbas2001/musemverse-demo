@@ -1,4 +1,3 @@
-// Artifacts.js
 import React, { useState } from 'react';
 import 'remixicon/fonts/remixicon.css';
 import './Artifacts.css';
