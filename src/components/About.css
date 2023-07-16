@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100;
+    height: 100%;
+}
+
+.About-main{
+    padding-top: 58px;
+}
+
+
+.overlay {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .main-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      transparent,
+      transparent,
+      transparent,
+      transparent,
+      transparent,
+      white
+    );
+    
+  }
+  
+  .About-banner-image {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../public/images/About-banner.jpg');
+    background-position: center 30%;
+    overflow: hidden;
+  }
+
+  .About-description{
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-right: 250px;
+  }
+  .About_mainheading{
+    color: #18253c;
+    font-family: Bitter;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .2em;
+    line-height: 2.7vw;
+    margin-bottom: 3.22vw;
+    text-transform: uppercase;
+  }
+
+  .About_bigtext{
+    color: #b57a50;
+    font-family: Bitter;
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.9vw;
+  }
+  
+  .benefits{
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 70px;
+    padding-right: 250px;
+    background-color: #f3f2f2;
+  }
+  .About_Benfitsgrid{
+    width: 100%;
+    height: 200px;
+    /* background-color: #b57a50; */
+  }
+
+  .About-Circle{
+    background-color: #9f755716;
+    border-radius: 100%;
+    height: 6.61vw;
+    position: relative;
+    width: 6.61vw;
+    z-index: 0;
+    left: 16%;
+  }
+
+  .About-image-circle{
+    height: 6.61vw;
+    left: 1.2vw;
+    position: absolute;
+    top: 1.2vw;
+    width: 6.61vw;
+  }
+
+  .About-image-circle>img{
+    width: 90%;
+  }
+  .About_subcontianertext{
+    color: #000;
+    font-family: Nunito;
+    font-size: 1.04vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25vw;
+    margin-top: 2.84vw;
+    text-align: center;
+    width: 14.79vw;
+  }
+
+  .Main-Benefitsgrid{
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+
+  .Our-Team{
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 70px;
+    padding-right: 250px;
+  }
+
+  .About_bigtext_Ourteam{
+    color: #b57a50;
+    font-family: Bitter;
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.9vw;
+  }
+
+  .About_ourteamwrap{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .About_ourteamcircle{
+    height: 14.635vw;
+    width: 14.635vw;
+  }
+  .About_ourteamcircle>img{
+    width: 100%;
+  }
+  .About_name {
+    color: #18253c;
+    font-size: 1.4vw;
+    font-weight: 400;
+    line-height: 1.9vw;
+    margin-top: 29px;
+    text-align: center;
+}
+.About_designation {
+    color: #858585;
+    font-size: 1.04vw;
+    font-weight: 400;
+    line-height: 1.25vw;
+    margin-top: 14px;
+    text-align: center;
+}
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 7%;
+    margin-left: 10%;
+}
